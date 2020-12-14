@@ -1,0 +1,47 @@
+$avatar-sizes: 16, 24, 32, 48, 64, 96, 128 !default;
+
+@mixin avatar($size) {
+    max-height: $size + px;
+    width: $size + px;
+    height: 100%;
+    font-size: round(($size / 3) * 2) + px;
+    line-height: $size + px;
+}
+
+.avatar {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &.img-thumbnail {
+        padding: 4px;
+        max-width: none;
+    }
+    & > img {
+        width: 100%;
+    }
+
+    @include avatar(32);
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+        @each $size in $avatar-sizes {
+            .avatar#{$infix}-#{$size} {
+                @include avatar($size);
+            }
+        }
+    }
+}
+
