@@ -4,7 +4,7 @@
     "description": "Fixed-sized avatar CSS/SCSS for use with Bootstrap",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "npx sass scss/style.scss build/avatar.css",
+        "build": "npx sass scss/style.scss dist/avatar.css",
         "serve": "npx http-server -o /"
     },
     "repository": {
