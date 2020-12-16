@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-avatar",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fixed-sized avatar CSS/SCSS for use with Bootstrap",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
