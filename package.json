@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-avatar",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Fixed-sized avatar CSS/SCSS for use with Bootstrap",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ghoststead/avatar.git"
+        "url": "git+https://github.com/ghoststead/bootstrap-avatar.git"
     },
     "keywords": [
         "CSS",
@@ -20,9 +20,9 @@
     "author": "GhostStead",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ghoststead/avatar/issues"
+        "url": "https://github.com/ghoststead/bootstrap-avatar/issues"
     },
-    "homepage": "https://github.com/ghoststead/avatar#readme",
+    "homepage": "https://github.com/ghoststead/bootstrap-avatar#readme",
     "devDependencies": {
         "bootstrap": "^5.0.0-beta1",
         "http-server": "^0.12.3",
