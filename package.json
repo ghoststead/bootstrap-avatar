@@ -1,11 +1,12 @@
 {
     "name": "bootstrap-avatar",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Fixed-sized avatar CSS/SCSS for use with Bootstrap",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npx sass scss/style.scss dist/avatar.css",
-        "serve": "npx http-server -o /"
+        "serve": "npx http-server -o /",
+        "prepare" : "npm run build"
     },
     "repository": {
         "type": "git",

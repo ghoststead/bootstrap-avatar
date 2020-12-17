@@ -8,7 +8,7 @@ A collection of fixed and responsive CSS for styling avatars.
 
 ### jsDelivr CDN
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@1.0.0/dist/avatar.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-avatar@1.0.2/dist/avatar.min.css" rel="stylesheet">
 ```
 The CDN version can be used without Bootstrap if desired.
 
