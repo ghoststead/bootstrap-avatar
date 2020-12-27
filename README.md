@@ -11,7 +11,7 @@ https://ghoststead.github.com/bootstrap-avatar
 
 ### jsDelivr CDN
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-avatar@1.0.4/dist/avatar.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-avatar@latest/dist/avatar.min.css" rel="stylesheet">
 ```
 The CDN version can be used without Bootstrap if desired.
 
