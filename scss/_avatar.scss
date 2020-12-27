@@ -1,16 +1,17 @@
 $avatar-sizes: 16, 24, 32, 48, 64, 96, 128 !default;
 
 @mixin avatar($size) {
-    max-height: $size + px;
+    height: $size + px;
     width: $size + px;
-    height: 100%;
     font-size: round(($size / 3) * 2) + px;
     line-height: $size + px;
 }
 
 .avatar {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     vertical-align: middle;
     margin: 0;
     padding: 0;
@@ -25,6 +26,7 @@ $avatar-sizes: 16, 24, 32, 48, 64, 96, 128 !default;
         padding: 4px;
         max-width: none;
     }
+
     & > img {
         width: 100%;
     }

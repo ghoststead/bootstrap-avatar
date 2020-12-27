@@ -4,6 +4,9 @@
 
 A collection of fixed and responsive CSS for styling avatars.
 
+## Demo
+https://ghoststead.github.com/bootstrap-avatar
+
 ## Installation
 
 ### jsDelivr CDN
@@ -72,10 +75,10 @@ You can create avatars that resize basic on the viewport width:
 </svg>
 ```
 
-This examples use the Bootstrap [person-circle](https://icons.getbootstrap.com/icons/person-circle/) icon as an inline SVG then
+This example uses the Bootstrap [person-circle](https://icons.getbootstrap.com/icons/person-circle/) icon as an inline SVG then
 adds the responsive classes `-md-24`, `-lg-32` etc so that the image grows with screen size.
 
-These examples and others can be found in the sample [index.html](https://www.github.com/bootstrap-avatar/index.html).
+These examples and others can be found on the [demo page](https://ghoststead.github.com/bootstrap-avatar).
 
 ## Development
 ### Setup
@@ -92,6 +95,8 @@ npm run build
 ```shell
 npm run serve
 ```
+
+The above commands serves a local version of the [demo page](https://ghoststead.github.com/bootstrap-avatar).
 
 ---
 This repository is maintained by [Ghoststead](https://www.ghoststead.com).
